@@ -134,7 +134,7 @@
     }
 
     .navbar .navbar-nav {
-        margin-top: 75px;
+        margin-top: 30px;
         border-top: 1px solid #EEEEEE;
     }
 }
@@ -503,4 +503,62 @@
 
 .copyright a:hover {
     color: #FFFFFF !important;
+}
+.responsive-logo {
+    width: 70px; /* Default size for larger screens */
+    height: auto;
+}
+
+@media (max-width: 768px) { /* For devices smaller than 768px, like iPhones */
+    .responsive-logo {
+        width: 50px;
+    }
+}
+/* Language Switch Button Styling */
+#langSwitchBtn {
+    height: 40px; /* Button height */
+    padding-top: 5px; /* Padding inside the button for content */
+    margin-top: 15px; /* Space from the top to better center it */
+}
+.tyty {
+    font-size: 4rem; /* Larger font size */
+    line-height: 1.2; /* Adjust line height for better text spacing */
+    margin-bottom: 30px; /* Increase bottom margin for more space below */
+    text-align: center; /* Center the heading */
+  }
+  .btn-light {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+    background-color: #f8f9fa;
+    border: 2px solid var(--primary); /* Add a border with color */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.btn-light:hover {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-5px);
+}
+/* Reduce the size of the carousel background image */
+#header-carousel .carousel-item img {
+    height: 600px;  /* Adjust the height of the carousel image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Set appropriate height for the carousel container (Don't use height: 0px) */
+#header-carousel {
+    min-height: 600px;  /* Minimum height to avoid collapsing */
+}
+
+/* Ensure other content is not hidden below the carousel */
+body {
+    overflow-x: hidden; /* Hide any potential horizontal overflow */
+}
+
+/* Optionally, give a margin or padding to the content below the carousel */
+.section-below-carousel {
+    margin-top: 30px; /* Adjust space between the carousel and the section below */
 }
