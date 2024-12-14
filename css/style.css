@@ -562,3 +562,52 @@ body {
 .section-below-carousel {
     margin-top: 30px; /* Adjust space between the carousel and the section below */
 }
+/* Reduce column gaps and spacing between items */
+.row.g-4 {
+    margin-bottom: 20px; /* Slightly reduced bottom margin */
+}
+
+.row.g-4 .col-md-4 {
+    margin-bottom: 10px; /* Adjust space between each column */
+}
+
+/* Adjust button size and reduce spacing between icons and text */
+
+/* Reduce text size and bottom margin for better compactness */
+.col-md-4 p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+/* Tighter padding between contact details for smaller screens */
+@media (max-width: 768px) {
+    .row.g-4 {
+        margin-top: 0; /* Remove top margin to prevent excessive spacing */
+        margin-bottom: 0; /* Remove bottom margin to make it more compact */
+        padding: 10px; /* Add slight padding for cleaner edges */
+    }
+
+    .row.g-4 .col-md-4 {
+        margin-bottom: 15px; /* Maintain spacing between items */
+        text-align: left; /* Align the content to the left for better readability on small screens */
+    }
+
+    /* Hide the contact details entirely on small screens (below 768px) */
+    .row.g-4 .col-md-4 {
+        display: none;
+    }
+
+    .btn-square {
+        width: 45px; /* Reduced size of the button */
+        height: 45px;
+    }
+
+    .fa {
+        font-size: 1.3rem; /* Adjust icon size for smaller screens */
+    }
+
+    /* Optional: You can keep the rest of the form if necessary on mobile */
+    .row.g-4 .col-md-8 {
+        display: block; /* Ensure this part is displayed if necessary */
+    }
+}
