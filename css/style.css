@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #88B44E;
+    --primary: #58a41c;
     --secondary: #FB9F38;
     --light: #F5F8F2;
     --dark: #252C30;
@@ -186,18 +186,26 @@
 }
 
 @media (max-width: 768px) {
-    #header-carousel .carousel-item {
-        position: relative;
-        min-height: 450px;
+    /* Remove any unnecessary padding/margin on the carousel container */
+    #header-carousel {
+        padding: 0;         /* Remove any padding */
+        margin-bottom: 0;   /* Remove bottom margin */
+        height: auto;       /* Let height adjust according to the content */
     }
-    
+
+    /* Ensure carousel items take up the full viewport */
+    #header-carousel .carousel-item {
+        min-height: 250px;  /* Adjust to suit the desired height */
+    }
+
+    /* Image covers the full area with no distortion */
     #header-carousel .carousel-item img {
-        position: absolute;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: cover; /* Ensures the image fully covers the container */
     }
 }
+
 
 .page-header {
     background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
@@ -290,7 +298,7 @@
 
 /*** About ***/
 .video {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/video-bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/GRAINE\ DE\ SOJA.jpeg) center center no-repeat;
     background-size: cover;
 }
 
@@ -610,4 +618,21 @@ body {
     .row.g-4 .col-md-8 {
         display: block; /* Ensure this part is displayed if necessary */
     }
+    /* Adjust padding for the section */
+.container-xxl.py-5 {
+    padding-top: 2rem;  /* Reduce top padding */
+    padding-bottom: 5rem;  /* Keep or adjust the bottom padding */
+}
+@media (max-width: 768px) {
+    #langSwitchBtn {
+        font-size: 0.8rem;       /* Make the text smaller */
+        padding: 5px 5px;       /* Reduce padding for compactness */
+        margin: 0;               /* Remove margins */
+        width: 60px;            /* Set a specific width */
+        max-width: 100%;         /* Ensure it doesn’t overflow parent */
+    }
+}
+
+
+
 }
