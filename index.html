@@ -130,7 +130,27 @@
       </div>
   </div>
 </div>
-<!-- Article End -->
+
+<script>
+    document.querySelectorAll(".btn").forEach(button => {
+    button.addEventListener("click", function(event) {
+        // Prevent default link behavior (only if it's an anchor)
+        if (this.tagName.toLowerCase() === "a") {
+            event.preventDefault();
+            
+            // You can add any animation or style here if needed
+            this.classList.add("active"); // Example: add an 'active' class for style change
+
+            // Redirect to the link after a small delay (to allow style changes)
+            setTimeout(() => {
+                window.location.href = this.href;
+            }, 0); // Adjust delay as needed
+        }
+    });
+});
+
+</script>
+
 
 
 <!-- Engagement Preview Start -->
