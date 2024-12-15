@@ -86,17 +86,17 @@
     
             <!-- Category Filter -->
             <div class="text-center mb-4">
-                <button class="btn filter-btn active" data-category="all">Tous</button>
-                <button class="btn filter-btn" data-category="grains">Grains</button>
-                <button class="btn filter-btn" data-category="épices">Épices</button>
-                <button class="btn filter-btn" data-category="fruits">Fruits Séchés</button>
-                <button class="btn filter-btn" data-category="farine">Farine & Amidon</button>
+                <button class="filter-btn active" data-category="all">Tous</button>
+                <button class="filter-btn" data-category="grains">Grains</button>
+                <button class="filter-btn" data-category="épices">Épices</button>
+                <button class="filter-btn" data-category="fruits">Fruits Séchés</button>
+                <button class="filter-btn" data-category="farine">Farine & Amidon</button>
             </div>
             
     
             <div class="row g-4">
                 <!-- Grains -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="grains" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="grains">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/Untitled design.png" alt="">
                         <div class="p-4">
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="grains" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="grains">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/soja.jpg" alt="">
                         <div class="p-4">
@@ -112,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="grains" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="grains">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/sesame.jpg" alt="">
                         <div class="p-4">
@@ -122,7 +122,7 @@
                 </div>
     
                 <!-- Épices -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="épices" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="épices">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/spices (1).png" alt="">
                         <div class="p-4">
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="épices" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="épices">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/ginger.jpg" alt="">
                         <div class="p-4">
@@ -140,7 +140,7 @@
                 </div>
     
                 <!-- Fruits Séchés -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="fruits" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="fruits">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/pepper2.png" alt="">
                         <div class="p-4">
@@ -148,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="fruits" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item" data-category="fruits">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/pepper2.png" alt="">
                         <div class="p-4">
@@ -158,7 +158,7 @@
                 </div>
     
                 <!-- Farine & Amidon -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="farine" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="farine">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/pepper2.png" alt="">
                         <div class="p-4">
@@ -166,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp custom-store-item" data-category="farine" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 custom-store-item custom-store-item" data-category="farine">
                     <div class="position-relative text-center">
                         <img class="img-fluid" src="img/pepper2.png" alt="">
                         <div class="p-4">
@@ -181,15 +181,22 @@
     <script>
         document.querySelectorAll('.filter-btn').forEach(button => {
             button.addEventListener('click', () => {
-                const category = button.getAttribute('data-category');
-                document.querySelectorAll('.custom-store-item').forEach(item => {
-                    item.style.display = (category === 'all' || item.getAttribute('data-category') === category) ? '' : 'none';
-                });
-                // Update active button styles
-                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('btn-primary'));
-                button.classList.add('btn-primary');
-            });
+        // Get the category to filter by
+        const category = button.getAttribute('data-category');
+
+        // Filter the items based on the category
+        document.querySelectorAll('.custom-store-item').forEach(item => {
+            item.style.display = (category === 'all' || item.getAttribute('data-category') === category) ? '' : 'none';
         });
+
+        // Remove the 'active' class from all buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+
+        // Add the 'active' class to the clicked button
+        button.classList.add('active');
+    });
+});
+
     </script>
     
 

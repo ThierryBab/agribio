@@ -589,6 +589,10 @@
     color: var(--primary);     /* Use primary color on hover */
     text-decoration: underline;   /* Add underline on hover */
 }
+.filter-btn.active {
+    color: var(--primary);         /* Use primary color for active button */
+    text-decoration: underline;    /* Add underline when active */
+}
 
 /* Reduce the size of the carousel background image */
 #header-carousel .carousel-item img {
