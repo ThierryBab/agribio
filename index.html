@@ -39,35 +39,45 @@
     <!-- Spinner End -->
 
     
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-white sticky-top">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
-              <a href="index.html" class="navbar-brand">
-                  <picture>
-                      <source media="(max-width: 768px)" srcset="img/logo abi50.png">
-                      <source media="(min-width: 769px)" srcset="img/logo abi70.png">
-                      <img class="img-fluid responsive-logo" src="img/logo abi70.png" alt="Logo">
-                  </picture>
-              </a>
-              <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <div class="navbar-nav ms-auto">
-                      <a href="index.html" class="nav-item nav-link active">Acceuil</a>
-                      <a href="about.html" class="nav-item nav-link">A Propos</a>
-                      <a href="engagement.html" class="nav-item nav-link">Engagement</a>
-                      <a href="contact.html" class="nav-item nav-link">Contact</a>
-                      
-                      <!-- Switch Button -->
-                      <button id="langSwitchBtn" class="btn btn-outline-primary">EN</button>
-                  </div>
-              </div>
-          </nav>
-      </div>
+ <!-- Navbar Start -->
+<div class="container-fluid bg-white sticky-top">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+            <!-- Logo -->
+            <a href="index.html" class="navbar-brand">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="img/logo abi50.png">
+                    <source media="(min-width: 769px)" srcset="img/logo abi70.png">
+                    <img class="img-fluid responsive-logo" src="img/logo abi70.png" alt="Logo">
+                </picture>
+            </a>
+  
+            <!-- Nav Items -->
+            <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <!-- Centered AB-INTERVENTIONS INC (visible only on phones) -->
+                <div class="text-center mx-auto d-block d-md-none">
+                <span class="navbar-text text-dark">AB-INTERVENTIONS INC</span>
+                </div>
+  
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active">Acceuil</a>
+                    <a href="about.html" class="nav-item nav-link">À Propos</a>
+                    <a href="engagement.html" class="nav-item nav-link">Engagement</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    
+                    <!-- Switch Button -->
+                    <button id="langSwitchBtn" class="btn btn-outline-primary">EN</button>
+                </div>
+            </div>
+        </nav>
+    </div>
   </div>
-    <!-- Navbar End -->
+  <!-- Navbar End -->
+  
+  
 
 
     <!-- Carousel Start -->
@@ -80,7 +90,6 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 text-center">
-                                    <p class="fs-4 text-white animated zoomIn">AB-INTERVENTIONS INC</strong></p>
                                     <h1 class="display-1 text-white mb-4 animated zoomIn tyty">Agriculture Biologique et Écologique</h1>
                                     <a href="" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">En Savoir Plus</a>
                                 </div>
@@ -101,10 +110,10 @@
               <img class="img-fluid" src="img/GRAIN DE CAFÉ.jpeg" alt="">
           </div>
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <div class="section-title">
-                  <p class="fs-5 fw-medium fst-italic text-primary">À Propos</p>
-                  <h1 class="display-6">AB-INTERVENTIONS</h1>
+            <div class="section-title custom-title-spacing">
+                <p class="fs-5 display-6 fw-medium fst-italic text-primary">À Propos</p>
               </div>
+              
               <p class="mb-4">
                   AB-INTERVENTIONS se donne pour mission de créer une passerelle durable entre les producteurs agricoles 
                   d'Afrique et les marchés internationaux, notamment canadiens, en mettant en avant des matières premières 
@@ -383,7 +392,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-primary mb-4">Liens</h4>
-                    <a class="btn btn-link" href="">A Propos</a>
+                    <a class="btn btn-link" href="">À Propos</a>
                     <a class="btn btn-link" href="">Engagement</a>
                     <a class="btn btn-link" href="">Contact</a>
                 </div>

@@ -98,6 +98,17 @@
     top: 0;
     left: 0;
 }
+@media (max-width: 768px) {
+    .navbar .mx-auto {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+  }
+  
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
@@ -229,6 +240,16 @@
     margin-bottom: 3rem;
     padding-bottom: 2rem;
 }
+.custom-title-spacing {
+  margin-bottom: 10px; /* Adjust this value to decrease the space below */
+  margin-top: 0;
+}
+
+.custom-title-spacing p {
+  margin-bottom: 0;
+  margin-top: 0; /* Remove or reduce extra margin below the <p> tag if needed */
+}
+
 
 .section-title::before {
     position: absolute;
