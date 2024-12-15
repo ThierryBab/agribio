@@ -427,6 +427,16 @@
     opacity: 1;
 }
 
+.custom-store-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-store-item:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+
 
 /*** Contact ***/
 .contact .btn-square {
@@ -561,6 +571,25 @@
     border-color: var(--primary);
     transform: translateY(-5px);
 }
+/* Override button styles for these specific buttons */
+.filter-btn {
+    background: none;             /* Remove background */
+    border: none;                 /* Remove border */
+    padding: 0;                   /* Remove padding */
+    color: var(--dark);     /* Use Bootstrap primary color */
+    font-size: 1.2rem;            /* Slightly larger text for better visibility */
+    font-weight: 500;             /* Add some weight for emphasis */
+    cursor: pointer;              /* Show pointer cursor */
+    margin: 0 15px;               /* Add equal horizontal spacing */
+    text-transform: capitalize;   /* Ensure text is properly capitalized */
+}
+
+/* Hover effect */
+.filter-btn:hover {
+    color: var(--primary);     /* Use primary color on hover */
+    text-decoration: underline;   /* Add underline on hover */
+}
+
 /* Reduce the size of the carousel background image */
 #header-carousel .carousel-item img {
     height: 600px;  /* Adjust the height of the carousel image */
