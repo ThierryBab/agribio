@@ -561,7 +561,6 @@
     color: var(--primary);
     background-color: #f8f9fa;
     border: 2px solid var(--primary); /* Add a border with color */
-    transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Button hover effect */
@@ -653,6 +652,7 @@ body {
         max-width: 100%;         /* Ensure it doesn’t overflow parent */
     }
 }
+  
 
 
 
