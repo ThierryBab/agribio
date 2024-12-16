@@ -172,6 +172,12 @@
 .carousel-control-next {
     width: 15%;
 }
+.fixed-img {
+    width: 100%;       /* Ensures fluid responsiveness */
+    height: 300px;     /* Fixed height */
+    object-fit: cover; /* Maintains aspect ratio and covers area */
+}
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
