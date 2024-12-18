@@ -164,7 +164,6 @@
     bottom: 0;
     display: flex;
     align-items: center;
-    background: rgba(136, 180, 78, .7);
     z-index: 1;
 }
 
@@ -207,12 +206,6 @@
         height: 100%;
         object-fit: cover; /* Ensures the image fully covers the container */
     }
-}
-
-
-.page-header {
-    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
-    background-size: cover;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
