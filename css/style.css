@@ -75,6 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgba(136, 180, 78, .7);
     font-weight: normal;
 }
 
@@ -670,8 +671,6 @@ body {
         max-width: 100%;         /* Ensure it doesn’t overflow parent */
     }
 }
-  
-
 
 
 }
