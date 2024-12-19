@@ -5,5 +5,158 @@
         "commitment": "Engagement",
         "products": "Produits",
         "contact": "Contact"
-    }
+    },
+    "carousel": {
+        "company": "AB-INTERVENTIONS INC",
+        "slogan": "Agriculture Biologique et Écologique",
+        "contact": "Contactez-nous"
+    },
+    "about": {
+        "biologique": {
+            "title": "Biologique",
+            "description": "L’ensemble de nos matières premières sont cultivé dans le respect de l’environnement."
+        },
+        "ecologique": {
+            "title": "Écologique",
+            "description": "Nous exprimons un engagement fort envers des pratiques durables et responsables, axées sur la démarche zéro déchet et la diminution de l’impact environnemental."
+        }
+    },
+    "article": {
+        "title": "À Propos",
+        "mission": "AB-INTERVENTIONS se donne pour mission de créer une passerelle durable entre les producteurs agricoles d'Afrique et les marchés internationaux, notamment canadiens, en mettant en avant des matières premières agricoles et biologiques de haute qualité, équitables et traçables.",
+        "vision": "Nous visons à valoriser le savoir-faire agricole africain tout en répondant aux besoins croissants des industries de transformation et des consommateurs canadiens en particulier.",
+        "learnMore": "En Savoir Plus"
+    },
+    "engagement": {
+        "title": "Notre Engagement",
+        "subtitle": "Nous nous engageons à valoriser les matières premières agricoles africaines de haute qualité tout en établissant des connexions durables entre les producteurs locaux et les marchés internationaux.",
+        "logistics": "Logistique & Export",
+        "distribution": "Distribution Canadienne",
+        "certification": "Certification & Traçabilité",
+        "support": "Soutien Sociétal",
+        "learnMore": "En Savoir Plus"
+    },
+    "products": {
+        "title": "Nos Produits",
+        "seeds": "Graines",
+        "spices": "Épices",
+        "driedFruits": "Fruit séché et noix",
+        "all": "Tous",
+        "allProducts": "Tous nos produits"
+    },
+    "contact": {
+        "title": "Nous joindre",
+        "description": "ABI est un importateur et distributeur des matières première d’origine agricole et biologiques. Notre gamme de produits allie santé, plaisir et conscience. Elle comprend des graines de cafés non torréfié, des céréales, des épices, des noix, des fruits séchés et autres.",
+        "email": "agri.negoces@gmail.com",
+        "phone": "(514) 210 9495",
+        "addressLine1": "950, Rue des Moissons",
+        "addressLine2": "Saint Lin Laurentides (Québec) J5M 0J1",
+        "form": {
+            "name": "Nom",
+            "email": "Courriel",
+            "phone": "Téléphone",
+            "message": "Message",
+            "submit": "Envoyer"
+        }
+    },
+    "impact": {
+        "title": "Notre Impact",
+        "livingConditions": {
+            "title": "Amélioration des conditions de vie des producteurs africains",
+            "point1": "Collaboration avec des agriculteurs et coopératives rurales, souvent marginalisés par les circuits traditionnels, pour leur offrir un accès direct à des marchés internationaux.",
+            "point2": "Mise en œuvre de programmes de formation sur des pratiques agricoles modernes et durables, augmentant les rendements tout en respectant l'environnement.",
+            "point3": "Renforcement du tissu communautaire par la création de coopératives locales et l’investissement dans des infrastructures agricoles (outils, entrepôts)."
+        },
+        "tradeInequalities": {
+            "title": "Réduction des inégalités commerciales",
+            "point1": "Valorisation des matières premières africaines sur un marché où elles sont sous-représentées.",
+            "point2": "Promotion d'une redistribution équitable des richesses en assurant des prix justes aux producteurs.",
+            "point3": "Mise en avant des pratiques de commerce équitable pour influencer positivement les comportements d'achat des consommateurs et des entreprises canadiennes."
+        },
+        "consumerAwareness": {
+            "title": "Sensibilisation des consommateurs canadiens",
+            "point1": "Campagnes éducatives pour promouvoir les bénéfices sociaux et économiques d'un approvisionnement éthique.",
+            "point2": "Partenariats avec des ONG ou des institutions pour encourager des choix responsables et sensibiliser sur l’importance du commerce équitable."
+        }
+    },
+    "clients": {
+        "subtitle": "Nos Clients",
+        "processors": {
+            "title": "Transformateurs",
+            "description1": "Nous sommes fiers d'aider à créer des produits locaux respectueux de l'éthique en fournissant des matières premières agricoles de grande qualité à de nombreux transformateurs au Québec. Cela permet non seulement de soutenir l'économie locale, mais aussi de favoriser une production alimentaire plus durable et responsable.",
+            "description2": "Nous pouvons fournir des volumes importants de matières premières. Cela garantit la continuité de leur production tout en respectant leurs exigences en matière de qualité et d'éthique."
+        },
+        "wholesalers": {
+            "title": "Grossistes et magasins bio",
+            "description": "Nous sommes fiers de soutenir le réseau des grossistes locaux, des magasins bio et indépendants à travers le Québec. Notre offre montée sur mesure pour les grossistes répond parfaitement à vos besoins."
+        }
+    },
+    "producers": {
+        "title": "Nos Producteurs",
+        "subtitle": "Amis Producteurs et Paysans",
+        "description": "Nos partenaires producteurs sont des femmes et des hommes engagés dans une agriculture biologique, respectueuse de l’environnement, à faible impact écologique, et qui contribue au développement de leur communauté. Nous établissons avec eux des relations durables, basées sur la transparence et la confiance. Cette démarche favorise des échanges commerciaux solides et bénéfiques pour tous.",
+        "videoSource": "Votre navigateur ne prend pas en charge la lecture de vidéos.",
+        "videoFallback": "Votre navigateur ne prend pas en charge la lecture de vidéos."
+    },
+    "footer": {
+        "address": "Adresse",
+        "address_line1": "950, Rue des Moissons",
+        "address_line2": "Saint Lin Laurentides",
+        "address_postal": "J5M 0J1",
+        "phone": "(514) 210 9495",
+        "email": "agri.negoces@gmail.com",
+        "links": "Liens",
+        "about": "À Propos",
+        "commitment": "Engagement",
+        "contact": "Contact",
+        "business_hours": "Heures d'Ouverture",
+        "monday_friday": "Du Lundi au Vendredi",
+        "hours_weekday": "09:00 am - 07:00 pm",
+        "saturday": "Samedi",
+        "hours_saturday": "09:00 am - 12:00 pm",
+        "sunday": "Dimanche",
+        "hours_sunday": "Fermé"
+    },
+    "engagementPage": {
+        "title": "Notre Engagement",
+        "raw_materials_title": "Sélection et acquisition des matières premières agricoles",
+        "local_partnerships": "Identification et partenariat avec des coopératives et producteurs locaux en Afrique.",
+        "strict_selection": "Sélection rigoureuse de matières premières (café, noix de cajou, cacao, épices, céréales, etc.) répondant aux normes de qualité et de durabilité internationales.",
+        "logistics_title": "Logistique et gestion des exportations",
+        "transport_organization": "Organisation du transport maritime et aérien des matières premières depuis l'Afrique vers le Canada.",
+        "customs_management": "Gestion des formalités douanières et des certifications requises pour garantir une livraison fluide.",
+        "distribution_title": "Distribution et commercialisation au Canada",
+        "supply_industries": "Approvisionnement des industries de transformations alimentaires, grossistes spécialisés et chaînes de magasins bio au Canada.",
+        "local_partnerships_canada": "Développement de partenariats commerciaux avec des distributeurs locaux.",
+        "certification_title": "Certification et traçabilité",
+        "traceability_system": "Mise en place d’un système de traçabilité pour garantir l’origine et la qualité des produits.",
+        "international_certifications": "Obtention de certifications internationales (bio, commerce équitable, etc.) pour répondre aux attentes des consommateurs canadiens.",
+        "awareness_title": "Sensibilisation et valorisation des produits africains",
+        "awareness_campaigns": "Campagnes de communication pour promouvoir les spécificités et l’origine des produits auprès des consommateurs.",
+        "educational_partnerships": "Organisation d’événements et de partenariats éducatifs pour faire découvrir les richesses agricoles de l’Afrique.",
+        "social_impact_title": "Engagement sociétal",
+        "social_impact": "Une partie des bénéfices sera dédiée à la formation des producteurs africains et à des initiatives de développement durable.",
+        "long_term_vision_title": "Vision à long terme",
+        "long_term_vision": "Être le leader nord-américain des matières premières agricoles africaines, en valorisant à la fois la richesse culturelle africaine et l’exigence de qualité canadienne.",
+        "opportunities_title": "Opportunités et Perspectives : Exportation des équipements agricoles",
+        "opportunities_paragraph": "L'exportation des équipements agricoles du Canada vers l'Afrique représente une opportunité stratégique pour répondre aux besoins croissants du continent tout en renforçant les échanges commerciaux entre les deux régions. En surmontant les défis existants grâce à des partenariats solides et des stratégies adaptées, le Canada peut jouer un rôle clé dans la modernisation de l'agriculture africaine et contribuer à la sécurité alimentaire mondiale."
+    },
+        "sectionTitle": "Nos Produits",
+        "coffeeBeans": "Graines de café non torréfié",
+        "soyBeans": "Graines de soja",
+        "sesameSeeds": "Graines de sésame",
+        "turmeric": "Curcuma",
+        "ginger": "Gingembre",
+        "driedMango": "Mangue séchée",
+        "driedPineapple": "Ananas séché",
+        "cassavaFlour": "Farine de manioc",
+        "cassavaStarch": "Amidon de manioc",
+        "error": "Erreur!",
+    "fillFields": "Veuillez remplir tous les champs obligatoires.",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+    "messageSent": "Message envoyé!",
+    "messageSuccess": "Votre message a été envoyé avec succès.",
+    "networkError": "Erreur réseau! Veuillez vérifier votre connexion et réessayer.",
+    "tryAgain": "Une erreur s'est produite. Veuillez réessayer."
+    
 }

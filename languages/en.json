@@ -5,5 +5,158 @@
         "commitment": "Commitment",
         "products": "Products",
         "contact": "Contact"
-    }
+    },
+    "carousel": {
+        "company": "AB-INTERVENTIONS INC",
+        "slogan": "Organic and Ecological Agriculture",
+        "contact": "Contact Us"
+    },
+    "about": {
+        "biologique": {
+            "title": "Organic",
+            "description": "All our raw materials are grown with respect for the environment."
+        },
+        "ecologique": {
+            "title": "Ecological",
+            "description": "We strongly commit to sustainable and responsible practices, focusing on zero-waste and reducing environmental impact."
+        }
+    },
+    "article": {
+        "title": "About Us",
+        "mission": "AB-INTERVENTIONS aims to create a sustainable bridge between African agricultural producers and international markets, particularly Canadian markets, showcasing high-quality, fair, and traceable organic agricultural raw materials.",
+        "vision": "We strive to highlight African agricultural expertise while meeting the growing needs of Canadian processing industries and consumers.",
+        "learnMore": "Learn More"
+    },
+    "engagement": {
+        "title": "Our Commitment",
+        "subtitle": "We are committed to promoting high-quality African agricultural raw materials while establishing sustainable connections between local producers and international markets.",
+        "logistics": "Logistics & Export",
+        "distribution": "Canadian Distribution",
+        "certification": "Certification & Traceability",
+        "support": "Social Support",
+        "learnMore": "Learn More"
+    },
+    "products": {
+        "title": "Our Products",
+        "seeds": "Seeds",
+        "spices": "Spices",
+        "driedFruits": "Dried Fruits and Nuts",
+        "all": "All",
+        "allProducts": "All our products"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "ABI is an importer and distributor of agricultural and organic raw materials. Our product range combines health, pleasure, and awareness. It includes unroasted coffee beans, cereals, spices, nuts, dried fruits, and more.",
+        "email": "agri.negoces@gmail.com",
+        "phone": "(514) 210 9495",
+        "addressLine1": "950, Rue des Moissons",
+        "addressLine2": "Saint Lin Laurentides (Québec) J5M 0J1",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "message": "Message",
+            "submit": "Send"
+        }
+    },
+    "impact": {
+        "title": "Our Impact",
+        "livingConditions": {
+            "title": "Improving the living conditions of African producers",
+            "point1": "Collaboration with farmers and rural cooperatives, often marginalized by traditional circuits, to provide them direct access to international markets.",
+            "point2": "Implementation of training programs on modern and sustainable agricultural practices, increasing yields while respecting the environment.",
+            "point3": "Strengthening community networks by creating local cooperatives and investing in agricultural infrastructure (tools, warehouses)."
+        },
+        "tradeInequalities": {
+            "title": "Reducing trade inequalities",
+            "point1": "Promoting African raw materials in a market where they are underrepresented.",
+            "point2": "Ensuring fair redistribution of wealth by guaranteeing fair prices to producers.",
+            "point3": "Highlighting fair trade practices to positively influence purchasing behavior among consumers and Canadian companies."
+        },
+        "consumerAwareness": {
+            "title": "Raising awareness among Canadian consumers",
+            "point1": "Educational campaigns to promote the social and economic benefits of ethical sourcing.",
+            "point2": "Partnerships with NGOs or institutions to encourage responsible choices and raise awareness about the importance of fair trade."
+        }
+    },
+    "clients": {
+        "subtitle": "Our Clients",
+        "processors": {
+            "title": "Processors",
+            "description1": "We are proud to help create ethically produced local products by providing high-quality agricultural raw materials to many processors in Quebec. This not only supports the local economy but also promotes more sustainable and responsible food production.",
+            "description2": "We can supply large volumes of raw materials. This ensures the continuity of their production while meeting their quality and ethical requirements."
+        },
+        "wholesalers": {
+            "title": "Wholesalers and organic stores",
+            "description": "We are proud to support the network of local wholesalers, organic and independent stores across Quebec. Our custom offer for wholesalers perfectly meets your needs."
+        }
+    },
+    "producers": {
+        "title": "Our Producers",
+        "subtitle": "Friends, Farmers, and Producers",
+        "description": "Our partner producers are women and men committed to organic farming, environmentally friendly practices, low ecological impact, and contributing to the development of their communities. We establish lasting relationships with them based on transparency and trust. This approach fosters strong and mutually beneficial trade exchanges.",
+        "videoSource": "Your browser does not support video playback.",
+        "videoFallback": "Your browser does not support video playback."
+    },
+    "footer": {
+        "address": "Address",
+        "address_line1": "950, Rue des Moissons",
+        "address_line2": "Saint Lin Laurentides",
+        "address_postal": "J5M 0J1",
+        "phone": "(514) 210 9495",
+        "email": "agri.negoces@gmail.com",
+        "links": "Links",
+        "about": "About Us",
+        "commitment": "Commitment",
+        "contact": "Contact",
+        "business_hours": "Business Hours",
+        "monday_friday": "Monday - Friday",
+        "hours_weekday": "09:00 am - 07:00 pm",
+        "saturday": "Saturday",
+        "hours_saturday": "09:00 am - 12:00 pm",
+        "sunday": "Sunday",
+        "hours_sunday": "Closed"
+    },
+    "engagementPage": {
+        "title": "Our Commitment",
+        "raw_materials_title": "Selection and Acquisition of Agricultural Raw Materials",
+        "local_partnerships": "Identification and partnership with local cooperatives and producers in Africa.",
+        "strict_selection": "Rigorous selection of raw materials (coffee, cashews, cocoa, spices, cereals, etc.) meeting international quality and sustainability standards.",
+        "logistics_title": "Logistics and Export Management",
+        "transport_organization": "Organization of maritime and air transport of raw materials from Africa to Canada.",
+        "customs_management": "Management of customs procedures and required certifications to ensure smooth delivery.",
+        "distribution_title": "Distribution and Marketing in Canada",
+        "supply_industries": "Supplying the food processing industries, specialized wholesalers, and organic stores in Canada.",
+        "local_partnerships_canada": "Developing business partnerships with local distributors.",
+        "certification_title": "Certification and Traceability",
+        "traceability_system": "Implementation of a traceability system to guarantee the origin and quality of products.",
+        "international_certifications": "Obtaining international certifications (organic, fair trade, etc.) to meet the expectations of Canadian consumers.",
+        "awareness_title": "Awareness and Promotion of African Products",
+        "awareness_campaigns": "Communication campaigns to promote the specifics and origin of products to consumers.",
+        "educational_partnerships": "Organizing events and educational partnerships to showcase Africa's agricultural riches.",
+        "social_impact_title": "Social Commitment",
+        "social_impact": "A portion of profits will be dedicated to training African producers and sustainable development initiatives.",
+        "long_term_vision_title": "Long-Term Vision",
+        "long_term_vision": "To be the North American leader in African agricultural raw materials, valuing both Africa's cultural richness and Canadian quality standards.",
+        "opportunities_title": "Opportunities and Prospects: Exporting Agricultural Equipment",
+        "opportunities_paragraph": "Exporting agricultural equipment from Canada to Africa represents a strategic opportunity to meet the continent's growing needs while strengthening trade between the two regions. By overcoming existing challenges through strong partnerships and tailored strategies, Canada can play a key role in modernizing African agriculture and contribute to global food security."
+    },
+    "sectionTitle": "Our Products",
+    "coffeeBeans": "Unroasted Coffee Beans",
+    "soyBeans": "Soybeans",
+    "sesameSeeds": "Sesame Seeds",
+    "turmeric": "Turmeric",
+    "ginger": "Ginger",
+    "driedMango": "Dried Mango",
+    "driedPineapple": "Dried Pineapple",
+    "cassavaFlour": "Cassava Flour",
+    "cassavaStarch": "Cassava Starch",
+        "error": "Error!",
+        "fillFields": "Please fill in all required fields.",
+        "invalidEmail": "Please enter a valid email address.",
+        "messageSent": "Message sent!",
+        "messageSuccess": "Your message has been successfully sent.",
+        "networkError": "Network error! Please check your connection and try again.",
+        "tryAgain": "An error occurred. Please try again."
+    
 }
