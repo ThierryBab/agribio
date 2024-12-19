@@ -1,0 +1,9 @@
+{
+    "nav": {
+        "home": "Acceuil",
+        "about": "À Propos",
+        "commitment": "Engagement",
+        "products": "Produits",
+        "contact": "Contact"
+    }
+}
