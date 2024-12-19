@@ -330,33 +330,33 @@
                     </div>
                     
                     </div>
-                      <form>
+                    <form id="contactForm" action="https://formspree.io/f/xdkoqgrv" method="POST" onsubmit="submitContactForm(event)">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Votre nom" name="Nom">
                                     <label for="name">Nom</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" placeholder="Votre courriel" name="Email">
                                     <label for="email">Courriel</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Télephone</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="Téléphone" name="Téléphone">
+                                    <label for="phone">Téléphone</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 120px"></textarea>
+                                    <textarea class="form-control" placeholder="Laissez un message ici" id="message" style="height: 120px" name="Message"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 text-center mt-4">
                                 <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Envoyer</button>
                             </div>
                         </div>
@@ -443,6 +443,8 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/translate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
