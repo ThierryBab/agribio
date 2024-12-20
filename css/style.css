@@ -44,7 +44,6 @@
 
 /*** Button ***/
 .btn {
-    transition: .5s;
     font-weight: 500;
 }
 
