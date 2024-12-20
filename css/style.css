@@ -563,7 +563,6 @@
     background-color: var(--primary);
     color: white;
     border-color: var(--primary);
-    transform: translateY(-5px);
 }
 /* Override button styles for these specific buttons */
 .filter-btn {
