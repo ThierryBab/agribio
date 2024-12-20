@@ -125,6 +125,11 @@
     vertical-align: middle;
     margin-left: 8px;
 }
+/* Remove box-shadow from navbar-toggler on focus */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
 
 @media (max-width: 991.98px) {
     .navbar .navbar-brand {
