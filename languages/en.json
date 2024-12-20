@@ -83,7 +83,7 @@
         "subtitle": "Our Clients",
         "processors": {
             "title": "Processors",
-            "description1": "We are proud to help create ethically produced local products by providing high-quality agricultural raw materials to many processors in Quebec. This not only supports the local economy but also promotes more sustainable and responsible food production.",
+            "description1": "We are proud to help create ethically produced local products by providing high-quality agricultural raw materials to many processors in Quebec. This not only supports the local economy but also promotes more sustainable and responsible food production. We can supply large volumes of raw materials. This ensures the continuity of their production while meeting their quality and ethical requirements.",
             "description2": "We can supply large volumes of raw materials. This ensures the continuity of their production while meeting their quality and ethical requirements."
         },
         "wholesalers": {
@@ -93,7 +93,7 @@
     },
     "producers": {
         "title": "Our Producers",
-        "subtitle": "Friends, Farmers, and Producers",
+        "subtitle": "Amis Producteurs et Paysans",
         "description": "Our partner producers are women and men committed to organic farming, environmentally friendly practices, low ecological impact, and contributing to the development of their communities. We establish lasting relationships with them based on transparency and trust. This approach fosters strong and mutually beneficial trade exchanges.",
         "videoSource": "Your browser does not support video playback.",
         "videoFallback": "Your browser does not support video playback."
@@ -152,6 +152,8 @@
     "cassavaFlour": "Cassava Flour/Starch",
     "cassavaStarch": "Cassava Starch",
     "poivre": "Pepper",
+    "cocosecher": "Dried coconut",
+    "grainscajou": "Cashew kernels",
         "error": "Error!",
         "fillFields": "Please fill in all required fields.",
         "invalidEmail": "Please enter a valid email address.",

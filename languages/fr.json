@@ -83,7 +83,7 @@
         "subtitle": "Nos Clients",
         "processors": {
             "title": "Transformateurs",
-            "description1": "Nous sommes fiers d'aider à créer des produits locaux respectueux de l'éthique en fournissant des matières premières agricoles de grande qualité à de nombreux transformateurs au Québec. Cela permet non seulement de soutenir l'économie locale, mais aussi de favoriser une production alimentaire plus durable et responsable.",
+            "description1": "Nous sommes fiers d'aider à créer des produits locaux respectueux de l'éthique en fournissant des matières premières agricoles de grande qualité à de nombreux transformateurs au Québec. Cela permet non seulement de soutenir l'économie locale, mais aussi de favoriser une production alimentaire plus durable et responsable.Nous pouvons fournir des volumes importants de matières premières. Cela garantit la continuité de leur production tout en respectant leurs exigences en matière de qualité et d'éthique.",
             "description2": "Nous pouvons fournir des volumes importants de matières premières. Cela garantit la continuité de leur production tout en respectant leurs exigences en matière de qualité et d'éthique."
         },
         "wholesalers": {
@@ -152,6 +152,8 @@
         "cassavaFlour": "Farine/Amidon de manioc",
         "cassavaStarch": "Amidon de manioc",
         "poivre": "Poivre",
+        "cocosecher": "Noix de coco séché",
+        "grainscajou": "Grains de cajou",
         "error": "Erreur!",
     "fillFields": "Veuillez remplir tous les champs obligatoires.",
     "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
