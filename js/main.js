@@ -95,4 +95,20 @@
     });
     
 })(jQuery);
+// Select all nav links
+const navLinks = document.querySelectorAll('.nav-item.nav-link');
+
+// Get the current page's file name
+const currentPage = window.location.pathname.split('/').pop();
+
+// Loop through all nav links and set the active class
+navLinks.forEach(link => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref === currentPage) {
+        link.classList.add('active');
+    } else {
+        link.classList.remove('active'); // Just to ensure no duplicates
+    }
+});
+
 
