@@ -588,6 +588,11 @@
     color: var(--primary);         /* Use primary color for active button */
     text-decoration: underline;    /* Add underline when active */
 }
+@media (hover: none) {
+    .animated {
+        animation: none !important;
+    }
+}
 
 /* Reduce the size of the carousel background image */
 #header-carousel .carousel-item img {
