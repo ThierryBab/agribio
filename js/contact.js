@@ -20,7 +20,7 @@ function submitContactForm(event) {
             translations = data; // Store translations from the loaded JSON file
 
             // Check if fields are empty
-            if (!name || !email || !phone || !message) {
+            if (!name || !email || !message) {
                 Swal.fire({
                     icon: 'error',
                     title: translations.error,
