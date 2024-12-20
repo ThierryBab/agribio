@@ -75,7 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(136, 180, 78, .7);
+    background: var(--primary);
     font-weight: normal;
 }
 
