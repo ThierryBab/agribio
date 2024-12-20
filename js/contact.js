@@ -41,7 +41,7 @@ function submitContactForm(event) {
             }
 
             // Submit Form
-            fetch('https://formspree.io/f/xdkoqgrv', {
+            fetch('https://formspree.io/f/movqgpwr', {
                 method: 'POST',
                 body: formData,
                 headers: { 'Accept': 'application/json' }
