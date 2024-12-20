@@ -93,6 +93,14 @@
     top: 0;
     left: 0;
 }
+/* In your CSS file (e.g., styles.css) */
+.navbar-text-stylish {
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Oswald', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
 
   
 
